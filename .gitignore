@@ -1,0 +1,19 @@
+# Ignore Play! working directory #
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+*.iml
+*.ipr
+*.iws
+bin/
+/db
+/lib/
+/logs/
+/modules
+/project/target
+/target
+tmp/
+test-result
+server.pid
+/dist/
