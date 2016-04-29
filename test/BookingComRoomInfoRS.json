@@ -1,0 +1,1428 @@
+{
+  "HotelRoomData": {
+    "roomList": [
+      {
+        "firstPicUrl": "http://aff.bstatic.com/images/hotel/max500/352/35263606.jpg",
+        "id": 11424111,
+        "minBaseRoomPrice": "",
+        "name": "塔楼翼豪华客房",
+        "recommendType": "",
+        "roomInfoDetails": {
+          "isBooking": true,
+          "bigImages": [
+            "http://aff.bstatic.com/images/hotel/max500/352/35263606.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26786826.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/410/41074380.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263045.jpg"
+          ],
+          "details": [
+            "建筑面积：38平方米"
+          ],
+          "FacilitiesOutput": {
+            "TypeName": "客房设施",
+            "FacilityTypesDesc": "迷你吧, 淋浴, 浴缸, 保险箱, 电话, 空调, 吹风机, 熨斗, 浴袍, 收音机, 书桌, 熨衣设备, 客厅角, 免费洗浴用品, 卫生间, 浴室, 卫星频道, 有线频道, 平面电视, 唤醒服务, 闹钟",
+            "FacilityTypes": null,
+            "ShowFacilityTypesDescOnly": true
+          },
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/352/35263606.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26786826.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/410/41074380.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263045.jpg"
+          ],
+          "imageTitle": [
+            "塔楼翼豪华双人间或双床间",
+            "塔楼翼豪华双人间或双床间",
+            "塔楼翼豪华双人间或双床间",
+            "塔楼翼豪华双人间或双床间"
+          ],
+          "bedDesc": "",
+          "sellingPoint": "房型介绍：客房拥有现代化的风格和宽敞的内部空间，设有一个凹室和落地窗，非常适合用餐或放松身心。注：该房型不提供加床。请注意，此房型严禁吸烟。",
+          "net": ""
+        },
+        "roomPic": true,
+        "subRoomCount": 0,
+        "bookable": false
+      },
+      {
+        "firstPicUrl": "http://aff.bstatic.com/images/hotel/max500/118/11893140.jpg",
+        "id": 11424112,
+        "minBaseRoomPrice": "",
+        "name": "花园翼城景豪华房",
+        "recommendType": "",
+        "roomInfoDetails": {
+          "isBooking": true,
+          "bigImages": [
+            "http://aff.bstatic.com/images/hotel/max500/118/11893140.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26787121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/105/10534263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263777.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35262282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263735.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35261815.jpg"
+          ],
+          "details": [
+            "建筑面积：49平方米"
+          ],
+          "FacilitiesOutput": {
+            "TypeName": "客房设施",
+            "FacilityTypesDesc": "迷你吧, 保险箱, 按次点播收费电视, 电话, 空调, 吹风机, 熨斗, 阳台, 浴袍, 收音机, 书桌, 熨衣设备, 客厅角, 免费洗浴用品, DVD播放机, 电风扇, 卫生间, 浴室, 拖鞋, 卫星频道, 有线频道, 提供连通间, 平面电视, 沙发, 木质/镶木地板, 唤醒服务, 闹钟, 电烧水壶, 衣柜/衣橱, 市景",
+            "FacilityTypes": null,
+            "ShowFacilityTypesDescOnly": true
+          },
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/118/11893140.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26787121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/105/10534263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263777.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35262282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263735.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35261815.jpg"
+          ],
+          "imageTitle": [
+            "市景花园翼豪华双人间或双床间",
+            "市景花园翼豪华双人间或双床间",
+            "市景花园翼豪华双人间或双床间",
+            "市景花园翼豪华双人间或双床间",
+            "市景花园翼豪华双人间或双床间",
+            "市景花园翼豪华双人间或双床间",
+            "市景花园翼豪华双人间或双床间"
+          ],
+          "bedDesc": "",
+          "sellingPoint": "房型介绍：这间客房设有可俯瞰城市的阳台、玻璃桌、平板电视以及带双人盥洗池、浴缸和高档香格里拉洗浴用品的大理石浴室。房价包含Waterfall Ristorante Italiano餐厅的免费早餐。",
+          "net": ""
+        },
+        "roomPic": true,
+        "subRoomCount": 0,
+        "bookable": false
+      },
+      {
+        "firstPicUrl": "http://aff.bstatic.com/images/hotel/max500/118/11893140.jpg",
+        "id": 11424113,
+        "minBaseRoomPrice": "",
+        "name": "花园翼池景豪华房",
+        "recommendType": "",
+        "roomInfoDetails": {
+          "isBooking": true,
+          "bigImages": [
+            "http://aff.bstatic.com/images/hotel/max500/118/11893140.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26787121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/105/10534263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263777.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35262282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263735.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35261815.jpg"
+          ],
+          "details": [
+            "建筑面积：50平方米"
+          ],
+          "FacilitiesOutput": {
+            "TypeName": "客房设施",
+            "FacilityTypesDesc": "迷你吧, 淋浴, 浴缸, 保险箱, 按次点播收费电视, 电话, 空调, 吹风机, 熨斗, 阳台, 浴袍, 收音机, 书桌, 熨衣设备, 客厅角, 免费洗浴用品, DVD播放机, 电风扇, 卫生间, 浴室, 拖鞋, 卫星频道, 有线频道, 提供连通间, 平面电视, 沙发, 木质/镶木地板, 唤醒服务, 闹钟, 电烧水壶, 衣柜/衣橱, 游泳池景",
+            "FacilityTypes": null,
+            "ShowFacilityTypesDescOnly": true
+          },
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/118/11893140.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26787121.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/105/10534263.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263777.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35262282.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263735.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35261815.jpg"
+          ],
+          "imageTitle": [
+            "泳池景花园翼豪华双人间或双床间",
+            "泳池景花园翼豪华双人间或双床间",
+            "泳池景花园翼豪华双人间或双床间",
+            "泳池景花园翼豪华双人间或双床间",
+            "泳池景花园翼豪华双人间或双床间",
+            "泳池景花园翼豪华双人间或双床间",
+            "泳池景花园翼豪华双人间或双床间"
+          ],
+          "bedDesc": "",
+          "sellingPoint": "房型介绍：这间客房设有可俯瞰室外游泳池的阳台、玻璃桌、平板电视以及带双人盥洗池、浴缸和高档香格里拉洗浴用品的大理石浴室。房价包含Waterfall Ristorante Italiano餐厅的免费早餐。此类房型严禁吸烟。",
+          "net": ""
+        },
+        "roomPic": true,
+        "subRoomCount": 0,
+        "bookable": false
+      },
+      {
+        "firstPicUrl": "http://aff.bstatic.com/images/hotel/max500/352/35262745.jpg",
+        "id": 11424108,
+        "minBaseRoomPrice": "",
+        "name": "豪华阁豪华房",
+        "recommendType": "",
+        "roomInfoDetails": {
+          "isBooking": true,
+          "bigImages": [
+            "http://aff.bstatic.com/images/hotel/max500/352/35262745.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26786826.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/353/35354526.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/636/6365375.jpg"
+          ],
+          "details": [
+            "建筑面积：38平方米"
+          ],
+          "FacilitiesOutput": {
+            "TypeName": "客房设施",
+            "FacilityTypesDesc": "迷你吧, 淋浴, 浴缸, 保险箱, 电视, 电话, 空调, 吹风机, 熨斗, 浴袍, 收音机, 书桌, 熨衣设备, 客厅角, 免费洗浴用品, 卫生间, 浴室, 卫星频道, 有线频道, 铺设了地毯的地板, 沙发, 可享用行政酒廊, 衣柜/衣橱",
+            "FacilityTypes": null,
+            "ShowFacilityTypesDescOnly": true
+          },
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/352/35262745.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26786826.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/353/35354526.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/636/6365375.jpg"
+          ],
+          "imageTitle": [
+            "豪华阁俱乐部豪华双人或双床间",
+            "豪华阁俱乐部豪华双人或双床间",
+            "豪华阁俱乐部豪华双人或双床间",
+            "豪华阁俱乐部豪华双人或双床间"
+          ],
+          "bedDesc": "",
+          "sellingPoint": "房型介绍：客房提供俱乐部酒廊优待，包括免费饮品和一件套装的免费熨烫服务。注：这类客房不可以加床。",
+          "net": ""
+        },
+        "roomPic": true,
+        "subRoomCount": 0,
+        "bookable": false
+      },
+      {
+        "firstPicUrl": "http://aff.bstatic.com/images/hotel/max500/410/41074251.jpg",
+        "id": 11424109,
+        "minBaseRoomPrice": "",
+        "name": "豪华阁至尊房",
+        "recommendType": "",
+        "roomInfoDetails": {
+          "isBooking": true,
+          "bigImages": [
+            "http://aff.bstatic.com/images/hotel/max500/410/41074251.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26786826.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/353/35354526.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/636/6365375.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35262796.jpg"
+          ],
+          "details": [
+            "建筑面积：72平方米"
+          ],
+          "FacilitiesOutput": {
+            "TypeName": "客房设施",
+            "FacilityTypesDesc": "迷你吧, 淋浴, 浴缸, 保险箱, 电视, 电话, 空调, 吹风机, 熨斗, 浴袍, 收音机, 书桌, 熨衣设备, 客厅角, 免费洗浴用品, 卫生间, 浴室, 卫星频道, 有线频道, 铺设了地毯的地板, 沙发, 可享用行政酒廊, 衣柜/衣橱",
+            "FacilityTypes": null,
+            "ShowFacilityTypesDescOnly": true
+          },
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/410/41074251.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/267/26786826.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/353/35354526.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/636/6365375.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35262796.jpg"
+          ],
+          "imageTitle": [
+            "Horizon俱乐部尊贵双人间或双床间",
+            "Horizon俱乐部尊贵双人间或双床间",
+            "Horizon俱乐部尊贵双人间或双床间",
+            "Horizon俱乐部尊贵双人间或双床间",
+            "Horizon俱乐部尊贵双人间或双床间"
+          ],
+          "bedDesc": "",
+          "sellingPoint": "房型介绍：客房位于塔楼翼的16至22楼，享有Horizon俱乐部的优惠。",
+          "net": ""
+        },
+        "roomPic": true,
+        "subRoomCount": 0,
+        "bookable": false
+      },
+      {
+        "firstPicUrl": "http://aff.bstatic.com/images/hotel/max500/352/35263100.jpg",
+        "id": 11424107,
+        "minBaseRoomPrice": "",
+        "name": "谷翼豪华房",
+        "recommendType": "",
+        "roomInfoDetails": {
+          "isBooking": true,
+          "bigImages": [
+            "http://aff.bstatic.com/images/hotel/max500/352/35263100.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263203.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263391.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263227.jpg"
+          ],
+          "details": [
+            "建筑面积：57平方米"
+          ],
+          "FacilitiesOutput": {
+            "TypeName": "客房设施",
+            "FacilityTypesDesc": "迷你吧, 淋浴, 浴缸, 保险箱, 电视, 电话, 传真, 空调, 吹风机, 熨斗, 浴袍, 收音机, 书桌, 熨衣设备, 客厅角, 免费洗浴用品, 卫生间, 浴室, 卫星频道, 有线频道, 提供连通间, 私人入口, 沙发, 唤醒服务, 闹钟",
+            "FacilityTypes": null,
+            "ShowFacilityTypesDescOnly": true
+          },
+          "images": [
+            "http://aff.bstatic.com/images/hotel/max500/352/35263100.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263203.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263391.jpg",
+            "http://aff.bstatic.com/images/hotel/max500/352/35263227.jpg"
+          ],
+          "imageTitle": [
+            "山谷翼豪华双人间或双床间",
+            "山谷翼豪华双人间或双床间",
+            "山谷翼豪华双人间或双床间",
+            "山谷翼豪华双人间或双床间"
+          ],
+          "bedDesc": "",
+          "sellingPoint": "房型介绍：专属间设有枕头选单、多功能传真机、打印机、复印机、大理石浴室，以及11:00至22:30供应的免费香槟。",
+          "net": ""
+        },
+        "roomPic": true,
+        "subRoomCount": 0,
+        "bookable": false
+      }
+    ],
+    "subRoomList": [
+      {
+        "price": {
+          "AvgPriceBeforeTax": 1685.0,
+          "OriAvgPriceBeforeTax": 350.0,
+          "AvgPriceBeforeTaxAfterDiscount": 1685.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 350.0,
+          "AvgPrice": 1985.0,
+          "OriAvgPrice": 411.95,
+          "TotalPrice": 1985.0,
+          "TotalPriceAfterDiscount": 1985.0,
+          "OriTotalPrice": 411.95,
+          "TotalTax": 300.0,
+          "TotalRoomPrice": 1685.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "911288",
+          "priceList": "1985,411.95,0$",
+          "amountVal": 411.95,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 2,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "10%服务费,7%税费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为1985",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为1985"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "",
+        "maxbreakfast": 0,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价不包含早餐。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272965,
+        "name": "塔楼翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='塔楼翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424111,
+        "checkAvlID": 5272965,
+        "ratePlanID": "615030202",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 2,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2168.0,
+          "OriAvgPriceBeforeTax": 450.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2168.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 450.0,
+          "AvgPrice": 2553.0,
+          "OriAvgPrice": 529.65,
+          "TotalPrice": 2553.0,
+          "TotalPriceAfterDiscount": 2553.0,
+          "OriTotalPrice": 529.65,
+          "TotalTax": 385.0,
+          "TotalRoomPrice": 2168.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "913220",
+          "priceList": "2553,529.65,1$",
+          "amountVal": 529.65,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 1,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "10%服务费,7%税费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为2553",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为2553"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费单早",
+        "maxbreakfast": 1,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含单早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272959,
+        "name": "豪华阁俱乐部豪华双人或双床间 单人用 - 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='豪华阁俱乐部豪华双人或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424108,
+        "checkAvlID": 5272959,
+        "ratePlanID": "997841401",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 0,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2360.0,
+          "OriAvgPriceBeforeTax": 490.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2360.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 490.0,
+          "AvgPrice": 2779.0,
+          "OriAvgPrice": 576.73,
+          "TotalPrice": 2779.0,
+          "TotalPriceAfterDiscount": 2779.0,
+          "OriTotalPrice": 576.73,
+          "TotalTax": 419.0,
+          "TotalRoomPrice": 2360.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "913988",
+          "priceList": "2779,576.73,2$",
+          "amountVal": 576.73,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 2,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "7%税费,10%服务费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为2779",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为2779"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费双早",
+        "maxbreakfast": 2,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含双早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272959,
+        "name": "豪华阁俱乐部豪华双人或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='豪华阁俱乐部豪华双人或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424108,
+        "checkAvlID": 5272959,
+        "ratePlanID": "297905702",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 0,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2192.0,
+          "OriAvgPriceBeforeTax": 454.99,
+          "AvgPriceBeforeTaxAfterDiscount": 2192.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 454.99,
+          "AvgPrice": 2581.0,
+          "OriAvgPrice": 535.53,
+          "TotalPrice": 2581.0,
+          "TotalPriceAfterDiscount": 2581.0,
+          "OriTotalPrice": 535.53,
+          "TotalTax": 389.0,
+          "TotalRoomPrice": 2192.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "913316",
+          "priceList": "2581,535.53,2$",
+          "amountVal": 535.53,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 2,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "10%服务费,7%税费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为2581",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为2581"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费双早",
+        "maxbreakfast": 2,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含双早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272962,
+        "name": "市景花园翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='市景花园翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424112,
+        "checkAvlID": 5272962,
+        "ratePlanID": "574928202",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 2,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2481.0,
+          "OriAvgPriceBeforeTax": 515.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2481.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 515.0,
+          "AvgPrice": 2921.0,
+          "OriAvgPrice": 606.15,
+          "TotalPrice": 2921.0,
+          "TotalPriceAfterDiscount": 2921.0,
+          "OriTotalPrice": 606.15,
+          "TotalTax": 440.0,
+          "TotalRoomPrice": 2481.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "914472",
+          "priceList": "2921,606.15,3$",
+          "amountVal": 606.15,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 3,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "7%税费,10%服务费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为2921",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为2921"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费三早",
+        "maxbreakfast": 3,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含三早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272962,
+        "name": "市景花园翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='市景花园翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424112,
+        "checkAvlID": 5272962,
+        "ratePlanID": "1248083803",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 2,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2288.0,
+          "OriAvgPriceBeforeTax": 475.01,
+          "AvgPriceBeforeTaxAfterDiscount": 2288.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 475.01,
+          "AvgPrice": 2694.0,
+          "OriAvgPrice": 559.08,
+          "TotalPrice": 2694.0,
+          "TotalPriceAfterDiscount": 2694.0,
+          "OriTotalPrice": 559.08,
+          "TotalTax": 406.0,
+          "TotalRoomPrice": 2288.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "913700",
+          "priceList": "2694,559.08,2$",
+          "amountVal": 559.08,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 2,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "10%服务费,7%税费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为2694",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为2694"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费双早",
+        "maxbreakfast": 2,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含双早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272960,
+        "name": "泳池景花园翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='泳池景花园翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424113,
+        "checkAvlID": 5272960,
+        "ratePlanID": "1169151902",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 5,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2578.0,
+          "OriAvgPriceBeforeTax": 535.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2578.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 535.0,
+          "AvgPrice": 3035.0,
+          "OriAvgPrice": 629.69,
+          "TotalPrice": 3035.0,
+          "TotalPriceAfterDiscount": 3035.0,
+          "OriTotalPrice": 629.69,
+          "TotalTax": 457.0,
+          "TotalRoomPrice": 2578.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "914860",
+          "priceList": "3035,629.69,3$",
+          "amountVal": 629.69,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 3,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "7%税费,10%服务费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为3035",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为3035"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费三早",
+        "maxbreakfast": 3,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含三早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272960,
+        "name": "泳池景花园翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='泳池景花园翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424113,
+        "checkAvlID": 5272960,
+        "ratePlanID": "449886803",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 5,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2504.0,
+          "OriAvgPriceBeforeTax": 520.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2504.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 520.0,
+          "AvgPrice": 2949.0,
+          "OriAvgPrice": 612.04,
+          "TotalPrice": 2949.0,
+          "TotalPriceAfterDiscount": 2949.0,
+          "OriTotalPrice": 612.04,
+          "TotalTax": 445.0,
+          "TotalRoomPrice": 2504.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "914564",
+          "priceList": "2949,612.04,2$",
+          "amountVal": 612.04,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 2,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "7%税费,10%服务费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为2949",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为2949"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费双早",
+        "maxbreakfast": 2,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含双早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272963,
+        "name": "Horizon俱乐部尊贵双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='Horizon俱乐部尊贵双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424109,
+        "checkAvlID": 5272963,
+        "ratePlanID": "1034417202",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 3,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2987.0,
+          "OriAvgPriceBeforeTax": 620.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2987.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 620.0,
+          "AvgPrice": 3517.0,
+          "OriAvgPrice": 729.74,
+          "TotalPrice": 3517.0,
+          "TotalPriceAfterDiscount": 3517.0,
+          "OriTotalPrice": 729.74,
+          "TotalTax": 530.0,
+          "TotalRoomPrice": 2987.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "916496",
+          "priceList": "3517,729.74,3$",
+          "amountVal": 729.74,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 3,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "7%税费,10%服务费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为3517",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为3517"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费三早",
+        "maxbreakfast": 3,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含三早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272963,
+        "name": "Horizon俱乐部尊贵双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='Horizon俱乐部尊贵双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424109,
+        "checkAvlID": 5272963,
+        "ratePlanID": "252342303",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 3,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 2770.0,
+          "OriAvgPriceBeforeTax": 575.0,
+          "AvgPriceBeforeTaxAfterDiscount": 2770.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 575.0,
+          "AvgPrice": 3261.0,
+          "OriAvgPrice": 676.77,
+          "TotalPrice": 3261.0,
+          "TotalPriceAfterDiscount": 3261.0,
+          "OriTotalPrice": 676.77,
+          "TotalTax": 491.0,
+          "TotalRoomPrice": 2770.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "915628",
+          "priceList": "3261,676.77,2$",
+          "amountVal": 676.77,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 2,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "10%服务费,7%税费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为3261",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为3261"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费双早",
+        "maxbreakfast": 2,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含双早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272961,
+        "name": "山谷翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='山谷翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424107,
+        "checkAvlID": 5272961,
+        "ratePlanID": "1267395902",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 6,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      },
+      {
+        "price": {
+          "AvgPriceBeforeTax": 3253.0,
+          "OriAvgPriceBeforeTax": 675.01,
+          "AvgPriceBeforeTaxAfterDiscount": 3253.0,
+          "OriAvgPriceBeforeTaxAfterDiscount": 675.01,
+          "AvgPrice": 3829.0,
+          "OriAvgPrice": 794.48,
+          "TotalPrice": 3829.0,
+          "TotalPriceAfterDiscount": 3829.0,
+          "OriTotalPrice": 794.48,
+          "TotalTax": 576.0,
+          "TotalRoomPrice": 3253.0,
+          "oriCurrency": "SGD",
+          "BiPrice": "917560",
+          "priceList": "3829,794.48,3$",
+          "amountVal": 794.48,
+          "amountCurrency": "SGD"
+        },
+        "isShowLocalTips": true,
+        "isShowTaxTips": false,
+        "maxPerson": 3,
+        "roomVendorID": 32,
+        "taxDesc": {
+          "excludeTaxDesc": "",
+          "includeTaxDesc": "7%税费,10%服务费",
+          "excludeAllTaxDesc": null,
+          "includeTaxPriceDesc": "含税费总价为3829",
+          "includeTaxPriceDescAfterDiscount": "含税费总价为3829"
+        },
+        "bed": "大床或双床",
+        "bedType": 3,
+        "breakfast": "免费三早",
+        "maxbreakfast": 3,
+        "samebreakfast": true,
+        "currency": {
+          "en": "SGD",
+          "er": "SGD"
+        },
+        "facilityInfo": {
+          "breakfast": "房价已包含三早。",
+          "net": "免费WIFI和有线宽带"
+        },
+        "guarantee": {
+          "info": "此期间预订改房型需提供信用卡担保。",
+          "need": true
+        },
+        "id": 5272961,
+        "name": "山谷翼豪华双人间或双床间 不退款",
+        "net": "免费WIFI",
+        "noGuarantee": false,
+        "payment": "FG",
+        "policyInfo": {
+          "info": "如果在入住日1天之前取消或更改预订，住宿方将不收取费用。 如果未如期入住或超出时限，取消或更改预订住宿方将收取第一晚房费的100%。依据以上预订规则，该订单确认后不可取消修改。此政策最终以订单提交为准。",
+          "title": "不可取消"
+        },
+        "prom": "",
+        "recommend": 11,
+        "discountInfo": null,
+        "roomTitle": "title='山谷翼豪华双人间或双床间'",
+        "showPPPrice": true,
+        "showPrice": true,
+        "showVIPPrice": true,
+        "baseRoomId": 11424107,
+        "checkAvlID": 5272961,
+        "ratePlanID": "800878803",
+        "dealSaleDesc": "",
+        "dealSaleTip": "",
+        "minState": 1,
+        "gift": null,
+        "ticket": {
+          "count": 1,
+          "ticketList": [
+            {
+              "desc": "机票独享500减200优惠券",
+              "begin": "2015-11-03",
+              "end": "2016-06-30",
+              "id": 26359
+            }
+          ]
+        },
+        "packages": null,
+        "agent": "",
+        "last": 6,
+        "status": "",
+        "message": "",
+        "isJustConfirm": true,
+        "isFirstCheckDiscount": false,
+        "isShowGroupTips": false,
+        "confirmTime": "-1",
+        "bookSuccPer": null,
+        "canCancel": false,
+        "isPayByGift": false,
+        "coupon": null,
+        "canBook": true,
+        "recommendType": "",
+        "showCugTip": false,
+        "shadowid": null,
+        "priceBefore": 0.0,
+        "priceCash": 0.0,
+        "shadowCtx": null
+      }
+    ],
+    "isCanReserve": true,
+    "id": 904373,
+    "name": "Shangri-La Singapore (新加坡香格里拉大酒店)",
+    "promInfo": {
+      "promGiftCss": "hidden",
+      "promGiftInfo": "",
+      "promGiftTitle": ""
+    },
+    "bookingHuaShu": "",
+    "fakeRoomList": "",
+    "ASYS": "",
+    "cityPromPlatform": "<div class=\"title\"></div><a href=\"javascript:;\" class=\" \"></a><div class=\"list list_one\"><a target=\"_blank\" href=\"http://hotels.ctrip.com/events/zhuxinjiapotesejiudianpinnanyangfengqingdujiatehui.html#ctm_ref=hoi_dl_ad_814_i_1\" class=\"long\"><span data-role=\"jmp\" data-params=\"{'options':{'type':'jmp_table','showArrow':false,'template':'#jmpTempCityPromotion','content':{'txt':'畅游新加坡，酒店特惠订！猛戳抢购新加坡特色酒店！','shorttile':'新加坡特色酒店惊喜价'},'classNames':{'boxType':'jmp_table'},'css':{'maxWidth':450}}}\">新加坡特色酒店惊喜价</span></a></div>"
+  },
+  "SegmentationNo": "2",
+  "SegmentationRPH": "5116042810000127231",
+  "RemainingSegmentationNo": "3",
+  "SegmentationCount": 3,
+  "LoadTime": 959,
+  "LoadStatus": "Success",
+  "ResultCode": 1
+}
