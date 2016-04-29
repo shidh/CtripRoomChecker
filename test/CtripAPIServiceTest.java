@@ -44,6 +44,8 @@ public class CtripAPIServiceTest extends UnitTest {
     public void testGetMappingStatusReportByHotelId() {
         List<Integer> hotelIds = new ArrayList<Integer>();
         hotelIds.add(904373);
+        hotelIds.add(688209);//Not mapped at all
+        hotelIds.add(996643);//Some room types haven’t been mapped
         hotelIds.add(4403170);
         hotelIds.add(4403353);
         hotelIds.add(4403413);
