@@ -1,16 +1,12 @@
 package controllers;
 
-import com.google.gson.JsonArray;
-import play.*;
 import play.db.jpa.JPA;
 import play.mvc.*;
 
 import java.util.*;
 
-import models.*;
 import services.CtripAPIService;
-import services.MappingStatus;
-import services.Utils;
+import services.dtos.MappingStatus;
 
 import javax.persistence.Query;
 

@@ -3,6 +3,7 @@ package services;
 import play.Logger;
 import services.dtos.BookingComRoomInfoRS;
 import services.dtos.HotelRoomData;
+import services.dtos.MappingStatus;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -47,7 +48,7 @@ public class CtripAPIService {
             mappingStatus.setMappingCount(hotelRoomData.getSubRoomList().size());
             hotelRoomData.getRoomList();
         }
-        Logger.info(mappingStatus.getHotelId()+":"+mappingStatus.getMappingCount());
+        Logger.info(mappingStatus.getHotelId()+":"+mappingStatus.getHotelName()+":"+mappingStatus.getMappingCount());
         return mappingStatus;
     }
 

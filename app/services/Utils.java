@@ -3,17 +3,10 @@ package services;
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.URISyntaxException;
 import java.net.URL;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Allen Shi on 4/28/16.
@@ -48,29 +41,5 @@ public class Utils {
         inStream.close();
         connection.disconnect();
         return buf.toString();
-    }
-
-    public static String readFileToString(String filePath, Class classs) {
-        StringBuilder result = new StringBuilder("");
-        URL pathURL = classs.getResource(filePath);
-        if (pathURL == null) return null;
-        java.nio.file.Path resPath = null;
-        try {
-            resPath = Paths.get(pathURL.toURI());
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
-        if (resPath == null) return null;
-        List<String> lines = new ArrayList<String>();
-        try {
-            lines.addAll(Files.readAllLines(resPath, Charset.defaultCharset()));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        for (String line : lines) {
-            result.append(line);
-        }
-        return result.toString();
     }
 }

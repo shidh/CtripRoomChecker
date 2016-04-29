@@ -1,4 +1,4 @@
-package services;
+package services.dtos;
 
 /**
  * Created by Allen Shi on 4/28/16.
@@ -8,6 +8,16 @@ public class MappingStatus {
     private String hotelName;
     private boolean isMapped;
     private int mappingCount;
+
+    public MappingStatus() {
+    }
+
+    public MappingStatus(String hotelId, String hotelName, boolean isMapped, int mappingCount) {
+        this.hotelId = hotelId;
+        this.hotelName = hotelName;
+        this.isMapped = isMapped;
+        this.mappingCount = mappingCount;
+    }
 
     public String getHotelId() {
         return hotelId;

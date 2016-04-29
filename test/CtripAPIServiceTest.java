@@ -2,7 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 import play.test.UnitTest;
 import services.CtripAPIService;
-import services.MappingStatus;
+import services.dtos.MappingStatus;
 import services.dtos.BookingComRoomInfoRS;
 
 import java.text.SimpleDateFormat;
@@ -42,14 +42,15 @@ public class CtripAPIServiceTest extends UnitTest {
 
     @Test
     public void testGetMappingStatusReportByHotelId() {
-        List<String> hotelIds = new ArrayList<String>();
-        hotelIds.add("4403170");
-        hotelIds.add("4403353");
-        hotelIds.add("4403413");
-        hotelIds.add("4403431");
-        hotelIds.add("4403450");
-        hotelIds.add("4403460");
-        hotelIds.add("4403477");
+        List<Integer> hotelIds = new ArrayList<Integer>();
+        hotelIds.add(904373);
+        hotelIds.add(4403170);
+        hotelIds.add(4403353);
+        hotelIds.add(4403413);
+        hotelIds.add(4403431);
+        hotelIds.add(4403450);
+        hotelIds.add(4403460);
+        hotelIds.add(4403477);
         List<MappingStatus> mappingStatusList = ctripAPIService.getMappingStatusReportByHotelIds(hotelIds);
         assertNotNull(mappingStatusList);
     }
