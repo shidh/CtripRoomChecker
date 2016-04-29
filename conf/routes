@@ -5,9 +5,8 @@
 # Home page
 GET     /                                       Application.index
 
-# Ignore favicon requests
-GET     /favicon.ico                            404
-
+GET     /getCityList                            Application.getCityList(country)
+GET     /getCheckResult                         Application.getCheckResult(country,city)
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 

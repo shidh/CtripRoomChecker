@@ -18,10 +18,10 @@ public class CtripAPIService {
     Calendar calendar = Calendar.getInstance();
     Date date = new Date();
 
-    public List<MappingStatus> getMappingStatusReportByHotelIds(List<String> hotelIds){
+    public List<MappingStatus> getMappingStatusReportByHotelIds(List<Integer> hotelIds){
         List<MappingStatus> mappingStatusList = new ArrayList<MappingStatus>();
-        for(String hotelId: hotelIds) {
-            MappingStatus mappingStatus = getMappingStatusReportByHotelId(hotelId);
+        for(int hotelId: hotelIds) {
+            MappingStatus mappingStatus = getMappingStatusReportByHotelId(hotelId+"");
             mappingStatusList.add(mappingStatus);
         }
         return mappingStatusList;

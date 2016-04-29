@@ -1,4 +1,101 @@
-#{extends 'main.html' /}
-#{set title:'Home' /}
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+function get_city_list(country)
+{
 
-#{welcome /}
+
+    $.ajax(
+    {
+        type : 'GET',
+        url : '/getCityList',
+        data : 'country=' + country,
+        success : function(msg)
+        {
+
+            $("#city").empty();
+            var data = msg.split(',');
+            var option = "";
+
+            for(var i=0; i<data.length;i++)
+            {
+                option += "<option value=\"" + data[i] + "\">" + data[i] + "</option>";
+            }
+
+            if (country == "" || country == null || country == undefined)
+            {
+                option += "<option value=\"\">Please select</option>";
+            }
+
+            $("#city").append(option);
+
+        },
+        error : function(msg, textStatus, e)
+        {
+           alert("error");
+
+        }
+    });
+}
+
+function send()
+{
+
+
+    $.ajax(
+    {
+        type : 'GET',
+        url : '/getCheckResult',
+        data : 'country=' + $("#country").val() + '&city=' + $("#city").val(),
+        success : function(msg)
+        {
+
+
+
+            $("#result").html(msg);
+
+        },
+        error : function(msg, textStatus, e)
+        {
+           alert("error");
+
+        }
+    });
+}
+</script>
+
+<table width="60%" border="0" align="center" cellpadding="0" cellspacing="0" class="borderquan">
+    <tr>
+        <td width="25%" height="30" align="center" class="borderbottomright">Country</td>
+        <td width="75%" class="borderbottom"><label>
+            <select name="country" id="country" onChange="get_city_list(this.value)" style="width:318px">
+                #{list items:countryList, as:'country'}
+                <option value="${country}">
+                    ${country}
+                </option>
+                #{/list}
+            </select>
+
+        </label></td>
+    </tr>
+    <tr>
+        <td width="25%" height="30" align="center" class="borderbottomright">City</td>
+        <td width="75%" class="borderbottom"><label>
+            <select name="city" id="city" style="width:318px">
+                <option value="">Please select</option>
+            </select>
+
+        </label></td>
+    </tr>
+    <tr>
+        <td width="25%" height="30" align="center" class="borderbottomright"></td>
+        <td width="75%" class="borderbottom"><label>
+            <button onclick="send()">Submit</button>
+        </label></td>
+    </tr>
+
+</table>
+<div id="result"></div>
+
+
+
+

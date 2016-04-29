@@ -1,3 +1,4 @@
+import models.Hotel;
 import org.junit.Test;
 import play.test.UnitTest;
 
@@ -5,7 +6,8 @@ public class BasicTest extends UnitTest {
 
     @Test
     public void aVeryImportantThingToTest() {
-        assertEquals(2, 1 + 1);
+        Hotel.find("byCity","Paris").first();
+
     }
 
 }
