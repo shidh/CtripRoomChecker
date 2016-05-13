@@ -5,7 +5,7 @@
 function get_city_list(country)
 {
 
-
+    $("#hotel").attr('disabled',true);
     $.ajax(
     {
         type : 'GET',
@@ -29,6 +29,7 @@ function get_city_list(country)
             }
 
             $("#city").append(option);
+            $("#hotel").attr('disabled',false);
 
         },
         error : function(msg, textStatus, e)
@@ -41,8 +42,7 @@ function get_city_list(country)
 
 function send()
 {
-
-
+    $("#hotel").attr('disabled',true);
     $.ajax(
     {
         type : 'GET',
@@ -54,6 +54,7 @@ function send()
 
 
             $("#result").html(msg);
+            $("#hotel").attr('disabled',false);
 
         },
         error : function(msg, textStatus, e)
@@ -64,8 +65,12 @@ function send()
     });
 }
 </script>
+<br>
+<br>
+<br>
 <div class="row">
     <div class="col-lg-2">
+
 
     </div>
     <div class="col-lg-2">
@@ -76,6 +81,7 @@ function send()
         </div>
     <div class="col-lg-2">
             <select name="country" id="country" onChange="get_city_list(this.value)" class="form-control">
+                <option value="">Please select</option>
                 #{list items:countryList, as:'country'}
                 <option value="${country}">
                     ${country}
@@ -117,19 +123,34 @@ function send()
 
 </div>
 <div class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-2">
 
     </div>
-    <div class="col-lg-4">
-
-            <button class="btn btn-primary" onclick="send()">Submit</button>
-    </div>
-    <div class="col-lg-4">
+    <div class="col-lg-2">
 
     </div>
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-2">
+        <br>
+        <button id="hotel" class="btn btn-primary" onclick="send()">Submit</button>
+
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+
+
 
 
 </div>
+<br>
+<br>
+<br>
 <div id="result"></div>
 
 
