@@ -61,7 +61,7 @@ public class Application extends Controller {
             result.append("<a href=\"");
             result.append("http://hotels.ctrip.com/international/");
             result.append(m.getHotelId());
-            result.append(".html\" target=\"_blank\"");
+            result.append(".html\" target=\"_blank\">");
             result.append(m.getHotelId());
             result.append("</a>");
             result.append("</td>");
