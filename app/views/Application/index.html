@@ -1,4 +1,6 @@
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/public/javascripts/jquery-1.6.4.min.js"></script>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 function get_city_list(country)
 {
@@ -62,38 +64,72 @@ function send()
     });
 }
 </script>
+<div class="row">
+    <div class="col-lg-2">
 
-<table width="60%" border="0" align="center" cellpadding="0" cellspacing="0" class="borderquan">
-    <tr>
-        <td width="25%" height="30" align="center" class="borderbottomright">Country</td>
-        <td width="75%" class="borderbottom"><label>
-            <select name="country" id="country" onChange="get_city_list(this.value)" style="width:318px">
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+    <div class="col-lg-2">
+        Country
+        </div>
+    <div class="col-lg-2">
+            <select name="country" id="country" onChange="get_city_list(this.value)" class="form-control">
                 #{list items:countryList, as:'country'}
                 <option value="${country}">
                     ${country}
                 </option>
                 #{/list}
             </select>
+    </div>
+    <div class="col-lg-2">
 
-        </label></td>
-    </tr>
-    <tr>
-        <td width="25%" height="30" align="center" class="borderbottomright">City</td>
-        <td width="75%" class="borderbottom"><label>
-            <select name="city" id="city" style="width:318px">
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="col-lg-2">
+
+</div>
+<div class="col-lg-2">
+
+</div>
+    <div class="col-lg-2">
+        <span class="center-block">
+        City
+            </span>
+    </div>
+    <div class="col-lg-2">
+            <select name="city" id="city" class="form-control">
                 <option value="">Please select</option>
             </select>
+    </div>
+<div class="col-lg-2">
 
-        </label></td>
-    </tr>
-    <tr>
-        <td width="25%" height="30" align="center" class="borderbottomright"></td>
-        <td width="75%" class="borderbottom"><label>
-            <button onclick="send()">Submit</button>
-        </label></td>
-    </tr>
+</div>
+<div class="col-lg-2">
 
-</table>
+</div>
+
+</div>
+<div class="row">
+    <div class="col-lg-4">
+
+    </div>
+    <div class="col-lg-4">
+
+            <button class="btn btn-primary" onclick="send()">Submit</button>
+    </div>
+    <div class="col-lg-4">
+
+    </div>
+
+
+</div>
 <div id="result"></div>
 
 

@@ -54,7 +54,7 @@ public class Application extends Controller {
 //        a.setHotelId("abc");
 //        mappingStatusList.add(a);
         StringBuilder result=new StringBuilder();
-        result.append("<table>");
+        result.append("<table class=\"table table-bordered\">");
         for(MappingStatus m : mappingStatusList){
             result.append("<tr>");
             result.append("<td>");
