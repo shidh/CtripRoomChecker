@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                                       Application.index
-
+GET     /getCountryResult                       Application.getCountryResult(country)
 GET     /getCityList                            Application.getCityList(country)
 GET     /getCheckResult                         Application.getCheckResult(country,city)
 # Map static resources from the /app/public folder to the /public path

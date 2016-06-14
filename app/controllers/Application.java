@@ -4,6 +4,8 @@ import play.db.jpa.JPA;
 import play.mvc.*;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import services.CtripAPIService;
 import services.dtos.MappingStatus;
@@ -41,6 +43,24 @@ public class Application extends Controller {
         String result=hotelString.toString();
 
         return result.substring(0,result.length()-1);
+    }
+    public void getCountryResult(String country){
+        Query query= JPA.em().createQuery("select distinct hotelId from Hotel where country=:country");
+        query.setParameter("country",country);
+        List hotelIdList = query.getResultList();
+        List<MappingStatus> mappingStatusList=ctripAPIService.getMappingStatusReportByHotelIds(hotelIdList);
+        for(MappingStatus mappingStatus : mappingStatusList){
+            Query query2= JPA.em().createQuery("update Hotel set mapped=:mapped, name=:name where hotelId=:hotelId");
+            query2.setParameter("mapped",mappingStatus.getMappingCount());
+            String reg = "[\u4e00-\u9fa5]";
+            Pattern pat = Pattern.compile(reg);
+            Matcher mat=pat.matcher(mappingStatus.getHotelName());
+            String name = mat.replaceAll("");
+            query2.setParameter("name",name);
+            query2.setParameter("hotelId",Integer.parseInt(mappingStatus.getHotelId()));
+            query2.executeUpdate();
+        }
+
     }
 
     public String getCheckResult(String country,String city){
