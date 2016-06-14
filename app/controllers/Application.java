@@ -44,7 +44,7 @@ public class Application extends Controller {
 
         return result.substring(0,result.length()-1);
     }
-    public void getCountryResult(String country){
+    public String getCountryResult(String country){
         Query query= JPA.em().createQuery("select distinct hotelId from Hotel where country=:country");
         query.setParameter("country",country);
         List hotelIdList = query.getResultList();
@@ -61,6 +61,7 @@ public class Application extends Controller {
             query2.executeUpdate();
         }
 
+        return "Done";
     }
 
     public String getCheckResult(String country,String city){
