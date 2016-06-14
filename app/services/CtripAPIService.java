@@ -1,15 +1,19 @@
 package services;
 
 import play.Logger;
+import play.db.jpa.JPA;
 import services.dtos.BookingComRoomInfoRS;
 import services.dtos.HotelRoomData;
 import services.dtos.MappingStatus;
 
+import javax.persistence.Query;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by Allen Shi on 4/28/16.
@@ -24,6 +28,15 @@ public class CtripAPIService {
         for(int hotelId: hotelIds) {
             MappingStatus mappingStatus = getMappingStatusReportByHotelId(hotelId+"");
             mappingStatusList.add(mappingStatus);
+            Query query2= JPA.em().createQuery("update Hotel set mapped=:mapped, name=:name where hotelId=:hotelId");
+            query2.setParameter("mapped",mappingStatus.getMappingCount());
+            String reg = "[\u4e00-\u9fa5]";
+            Pattern pat = Pattern.compile(reg);
+            Matcher mat=pat.matcher(mappingStatus.getHotelName());
+            String name = mat.replaceAll("");
+            query2.setParameter("name",name);
+            query2.setParameter("hotelId",Integer.parseInt(mappingStatus.getHotelId()));
+            query2.executeUpdate();
         }
         return mappingStatusList;
     }

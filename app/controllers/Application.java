@@ -49,17 +49,6 @@ public class Application extends Controller {
         query.setParameter("country",country);
         List hotelIdList = query.getResultList();
         List<MappingStatus> mappingStatusList=ctripAPIService.getMappingStatusReportByHotelIds(hotelIdList);
-        for(MappingStatus mappingStatus : mappingStatusList){
-            Query query2= JPA.em().createQuery("update Hotel set mapped=:mapped, name=:name where hotelId=:hotelId");
-            query2.setParameter("mapped",mappingStatus.getMappingCount());
-            String reg = "[\u4e00-\u9fa5]";
-            Pattern pat = Pattern.compile(reg);
-            Matcher mat=pat.matcher(mappingStatus.getHotelName());
-            String name = mat.replaceAll("");
-            query2.setParameter("name",name);
-            query2.setParameter("hotelId",Integer.parseInt(mappingStatus.getHotelId()));
-            query2.executeUpdate();
-        }
 
         return "Done";
     }
