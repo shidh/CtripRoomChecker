@@ -8,6 +8,15 @@ public class MappingStatus {
     private String hotelName;
     private boolean isMapped;
     private int mappingCount;
+    private int totalRoomTypeCount;
+
+    public int getTotalRoomTypeCount() {
+        return totalRoomTypeCount;
+    }
+
+    public void setTotalRoomTypeCount(int totalRoomTypeCount) {
+        this.totalRoomTypeCount = totalRoomTypeCount;
+    }
 
     public MappingStatus() {
     }

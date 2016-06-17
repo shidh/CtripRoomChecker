@@ -51,7 +51,7 @@ public class CtripAPIService {
         Date end = calendar.getTime();
 
         BookingComRoomInfoRS bookingComRoomInfoRS = getBookingcomRoomInfoRS(hotelId, dateFormat.format(start), dateFormat.format(end));
-
+        int totalRoomTypeCount = getTotalRoomTypeCount(hotelId, dateFormat.format(start), dateFormat.format(end));
         if(bookingComRoomInfoRS.getHotelRoomData() == null) {
             mappingStatus.setMapped(false);
             mappingStatus.setHotelName("BMP Hotel?");
@@ -60,10 +60,29 @@ public class CtripAPIService {
             HotelRoomData hotelRoomData = bookingComRoomInfoRS.getHotelRoomData();
             mappingStatus.setHotelName(hotelRoomData.getName());
             mappingStatus.setMappingCount(hotelRoomData.getSubRoomList().size());
+            mappingStatus.setTotalRoomTypeCount(totalRoomTypeCount);
             hotelRoomData.getRoomList();
         }
-        Logger.info(mappingStatus.getHotelId()+": "+mappingStatus.getHotelName()+": "+mappingStatus.getMappingCount());
+        Logger.info(mappingStatus.getHotelId()+": "+mappingStatus.getHotelName()+": "+mappingStatus.getMappingCount()+": "+mappingStatus.getTotalRoomTypeCount());
         return mappingStatus;
+    }
+
+    private int getTotalRoomTypeCount(String hotelId, String startDate, String endDate){
+        String ctripEndpointRQ = "http://hotels.ctrip.com/international/Tool/AjaxHotelRoomInfoDetailPart.aspx?" +
+                "hotel="+hotelId+"&EDM=F&urlReferedForOtherSeo=False&isApartment=F&StartDate="+startDate+
+                "&DepDate="+endDate+"&RoomNum=2&IsNoLocalRoomHotel=T&UserUnicode=-1534711878&requestTravelMoney=F" +
+                "&abt=B&promotionid=&t=1461814358558&childNum=2&FixSubHotel=F&userCouponPromoId=&SegmentationNo=2,3";
+        try {
+            BookingComRoomInfoRS bookingComRoomInfoRS = new BookingComRoomInfoRS();
+            String bookingcomRoomInfoStringRS = Utils.httpGet(ctripEndpointRQ);
+            bookingComRoomInfoRS = Utils.fromJson(bookingcomRoomInfoStringRS, BookingComRoomInfoRS.class);
+            return bookingComRoomInfoRS.getHotelRoomData().getRoomList().size();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return -1;
+        }
+
+
     }
 
     public BookingComRoomInfoRS getBookingcomRoomInfoRS(String hotelId, String startDate, String endDate){
@@ -71,7 +90,7 @@ public class CtripAPIService {
                 "hotel="+hotelId+"&EDM=F&urlReferedForOtherSeo=False&isApartment=F&StartDate="+startDate+
                 "&DepDate="+endDate+"&RoomNum=2&IsNoLocalRoomHotel=T&UserUnicode=-1534711878&requestTravelMoney=F" +
                 "&abt=B&promotionid=&t=1461814358558&childNum=2&FixSubHotel=F";
-
+        //http://hotels.ctrip.com/international/Tool/AjaxHotelRoomInfoDetailPart.aspx?city=359&hotel=996628&EDM=F&urlReferedForOtherSeo=False&isApartment=F&StartDate=2016-06-24&DepDate=2016-06-25&RoomNum=2&IsNoLocalRoomHotel=T&UserUnicode=-1556634512&requestTravelMoney=F&abt=B&promotionid=&t=1466128675225&childNum=2&FixSubHotel=F&userCouponPromoId=&ShowFlightSource=F&SegmentationNo=3&SegmentationRPH=4516061709000101453&Coupons=&t2=1466128677783&eleven=n7q3wyijgMlBzE4Bq%2FRcVA%3D%3D
         String ctripEndpointRQ2 = "http://hotels.ctrip.com/international/Tool/AjaxHotelRoomInfoDetailPart.aspx?" +
                 "hotel="+hotelId+"&EDM=F&urlReferedForOtherSeo=False&isApartment=F&StartDate="+startDate+
                 "&DepDate="+endDate+"&RoomNum=2&IsNoLocalRoomHotel=T&UserUnicode=-1534711878&requestTravelMoney=F" +

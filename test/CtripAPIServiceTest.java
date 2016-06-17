@@ -43,16 +43,16 @@ public class CtripAPIServiceTest extends UnitTest {
     @Test
     public void testGetMappingStatusReportByHotelId() {
         List<Integer> hotelIds = new ArrayList<Integer>();
-        hotelIds.add(904373);
-        hotelIds.add(688209);//Not mapped at all
-        hotelIds.add(996643);//Some room types haven’t been mapped
-        hotelIds.add(4403170);
-        hotelIds.add(4403353);
-        hotelIds.add(4403413);
-        hotelIds.add(4403431);
-        hotelIds.add(4403450);
-        hotelIds.add(4403460);
-        hotelIds.add(4403477);
+        hotelIds.add(996628);
+//        hotelIds.add(688209);//Not mapped at all
+//        hotelIds.add(996643);//Some room types haven’t been mapped
+//        hotelIds.add(4403170);
+//        hotelIds.add(4403353);
+//        hotelIds.add(4403413);
+//        hotelIds.add(4403431);
+//        hotelIds.add(4403450);
+//        hotelIds.add(4403460);
+//        hotelIds.add(4403477);
         List<MappingStatus> mappingStatusList = ctripAPIService.getMappingStatusReportByHotelIds(hotelIds);
         assertNotNull(mappingStatusList);
     }
