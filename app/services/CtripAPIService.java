@@ -73,7 +73,8 @@ public class CtripAPIService {
             BookingComRoomInfoRS bookingComRoomInfoRS = new BookingComRoomInfoRS();
             String bookingcomRoomInfoStringRS = Utils.httpGet(ctripEndpointRQ);
             bookingComRoomInfoRS = Utils.fromJson(bookingcomRoomInfoStringRS, BookingComRoomInfoRS.class);
-            return bookingComRoomInfoRS.getHotelRoomData().getRoomList().size();
+            int count=bookingComRoomInfoRS.getHotelRoomData().getRoomList().size();
+            return count;
         } catch (Exception e) {
             e.printStackTrace();
             return -1;
