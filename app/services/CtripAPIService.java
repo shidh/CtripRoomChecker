@@ -12,21 +12,16 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * Created by Allen Shi on 4/28/16.
  */
 public class CtripAPIService {
-    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-M-dd");
-    Calendar calendar = Calendar.getInstance();
-    Date date = new Date();
 
-    public List<MappingStatus> getMappingStatusReportByHotelIds(List<Integer> hotelIds){
+    public List<MappingStatus> getMappingStatusReportByHotelIds(List<Integer> hotelIds, String checkIn, String checkOut){
         List<MappingStatus> mappingStatusList = new ArrayList<MappingStatus>();
         for(int hotelId: hotelIds) {
-            MappingStatus mappingStatus = getMappingStatusReportByHotelId(hotelId+"");
+            MappingStatus mappingStatus = getMappingStatusReportByHotelId(hotelId+"",checkIn,checkOut);
             mappingStatusList.add(mappingStatus);
             Query query2= JPA.em().createQuery("update Hotel set mapped=:mapped, totalroomtype=:total where hotelId=:hotelId");
             query2.setParameter("mapped",mappingStatus.getMappingCount());
@@ -38,17 +33,14 @@ public class CtripAPIService {
         return mappingStatusList;
     }
 
-    public MappingStatus getMappingStatusReportByHotelId(String hotelId){
+    public MappingStatus getMappingStatusReportByHotelId(String hotelId, String checkIn, String checkOut){
         MappingStatus mappingStatus = new MappingStatus();
         mappingStatus.setHotelId(hotelId);
-        calendar.setTime(date);
-        calendar.add(Calendar.MONTH, 1);
-        Date start = calendar.getTime();
-        calendar.add(Calendar.DATE, 1);
-        Date end = calendar.getTime();
 
-        BookingComRoomInfoRS bookingComRoomInfoRS = getBookingcomRoomInfoRS(hotelId, dateFormat.format(start), dateFormat.format(end));
-        int totalRoomTypeCount = getTotalRoomTypeCount(hotelId, dateFormat.format(start), dateFormat.format(end));
+
+
+        BookingComRoomInfoRS bookingComRoomInfoRS = getBookingcomRoomInfoRS(hotelId, checkIn, checkOut);
+        int totalRoomTypeCount = getTotalRoomTypeCount(hotelId, checkIn, checkOut);
         if(bookingComRoomInfoRS.getHotelRoomData() == null) {
             mappingStatus.setMapped(false);
             mappingStatus.setHotelName("BMP Hotel?");

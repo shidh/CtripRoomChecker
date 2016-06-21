@@ -3,9 +3,8 @@ package controllers;
 import play.db.jpa.JPA;
 import play.mvc.*;
 
+import java.text.SimpleDateFormat;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import services.CtripAPIService;
 import services.dtos.MappingStatus;
@@ -14,6 +13,7 @@ import javax.persistence.Query;
 
 public class Application extends Controller {
     private CtripAPIService ctripAPIService=new CtripAPIService();
+    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     public void index() {
         Query query= JPA.em().createQuery("select distinct country from Hotel");
@@ -44,11 +44,11 @@ public class Application extends Controller {
 
         return result.substring(0,result.length()-1);
     }
-    public String getCountryResult(String country){
+    public String getCountryResult(String country, String checkIn, String checkOut){
         Query query= JPA.em().createQuery("select distinct hotelId from Hotel where country=:country");
         query.setParameter("country",country);
         List hotelIdList = query.getResultList();
-        List<MappingStatus> mappingStatusList=ctripAPIService.getMappingStatusReportByHotelIds(hotelIdList);
+        List<MappingStatus> mappingStatusList=ctripAPIService.getMappingStatusReportByHotelIds(hotelIdList,checkIn,checkOut);
 
         return "Done";
     }
@@ -58,7 +58,7 @@ public class Application extends Controller {
         query.setParameter("country",country);
         query.setParameter("city",city);
         List hotelIdList = query.getResultList();
-        List<MappingStatus> mappingStatusList=ctripAPIService.getMappingStatusReportByHotelIds(hotelIdList);
+        List<MappingStatus> mappingStatusList=ctripAPIService.getMappingStatusReportByHotelIds(hotelIdList,dateFormat.format(new Date()), dateFormat.format(new Date()));
         //List<MappingStatus> mappingStatusList=new ArrayList<MappingStatus>();
 //        MappingStatus a=new MappingStatus();
 //        a.setHotelId("abc");

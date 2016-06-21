@@ -53,7 +53,7 @@ public class CtripAPIServiceTest extends UnitTest {
 //        hotelIds.add(4403450);
 //        hotelIds.add(4403460);
 //        hotelIds.add(4403477);
-        List<MappingStatus> mappingStatusList = ctripAPIService.getMappingStatusReportByHotelIds(hotelIds);
+        List<MappingStatus> mappingStatusList = ctripAPIService.getMappingStatusReportByHotelIds(hotelIds, "2016-06-25", "2016-06-26");
         assertNotNull(mappingStatusList);
     }
 
